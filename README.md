@@ -18,4 +18,4 @@
 **TEXTO NEGRITAS**
 _TEXTO SURSIVA_
 *** NEGRITAS ***
-![DESCRIPCION imagen](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lafm.com.co%2Ftecnologia%2Fcuales-son-los-robots-de-limpieza-inteligente-para-el-hogar&psig=AOvVaw1Qycij9GgFEkom3CPoDD_M&ust=1728088356992000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCID3zN2884gDFQAAAAAdAAAAABAE)
+![DESCRIPCION imagen](https://files.lafm.com.co/assets/public/styles/seoimg_1200x675_/public/2024-05/robots_de_limpieza_para_el_hogar.jpg?VersionId=Yeewh8jVVD1ezdapiMpvwR071Zk2_67J&h=99a541cf&itok=LN2De4h6)
