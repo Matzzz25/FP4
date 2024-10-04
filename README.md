@@ -15,4 +15,6 @@
 4. cuatro
 5. cinco
 
-**Nigga**
+**TEXTO NEGRITAS**
+_TEXTO SURSIVA_
+***NEGRITAS CURSIVAS***
