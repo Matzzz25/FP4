@@ -1,0 +1,69 @@
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	//operadores comparacion
+	//enteros
+	int a = 10;
+	int b = 20;
+	int c;
+	//flotantes
+	float x = 15.5;
+	float y = 5.2;
+	float z;
+
+	//para imprimir true en lugAR DE 1 o folse en lugar de 0 
+	cout << boolalpha; 
+	
+	//1. Igualdad 
+	cout <<  "(a == b): " << (a == b) << endl;
+	cout << "(x == y): " << (x == y) << endl;
+	//2.desiguldad
+	cout << "(a != b): " << (a != b) << endl;
+	cout << "(x != y): " << (x != y) << endl;
+	//3.MAYOR QUE 
+	cout << "(a > b): " << (a > b) << endl;
+	cout << "(x > y): " << (x > y) << endl;
+	//4.MENOR QUE 
+	cout << "(a < b): " << (a < b) << endl;
+	cout << "(x < y): " << (x < y) << endl;
+	//5.MAYOR O IGUAL 
+	cout << "(a >= b): " << (a >= b) << endl;
+	cout << "(x >= y): " << (x >= y) << endl;
+	//6.MENOR O IGUAL 
+	cout << "(a <= b): " << (a <= b) << endl;
+	cout << "(x <= y): " << (x <= y) << endl;
+	//MIXTOS 
+	cout << "(a > y): " << (a > y) << endl; 
+	cout << "(x < b): " << (x < b) << endl; 
+	//Negativos 
+	cout << "(a > -b): " << (a > -b) << endl;
+	cout << "(x < -y): " << (x < -y) << endl;
+	//MIXTOS 
+	cout << "(a > y): " << (a > y) << endl;
+	cout << "(x < b): " << (x < b) << endl;
+	//Combinacion de comparaciones 
+	cout << "(a > b): " << ((a > b) and (x > y)) << endl;
+	cout << "(a == 10): " << ((a == 10 ) and (x == 5.2)) << endl;
+	// combinaciones anidadas 
+	cout << (x > b - 10) << endl; 
+	cout << (x <= y + 10.3) << endl; 
+	// cp,paracion de constantes 
+	cout << (a == 10) << endl; 
+	cout << (y == 5.2) << endl; 
+	// comparacion con los resultados de las operaciones aritmeticas 
+	cout << ((a + b) < (x * y)) << endl; 
+	cout << ((b - a) >= (x * y)) << endl; 
+	// comparacion con resultados negaqtivos y posiitvod 
+	cout << (-a < b) << endl; 
+	cout << ((-x) > y) << endl; 
+	// combinacion de aritmetica y comparacion
+	
+	// comparacuiones encadenadas 
+	cout << (a < b and b < x) << endl; 
+	cout << (y > x and x > a) << endl; 
+	// comparacion de módulo 
+	cout << ((b % a) == 0) << endl; 
+}
