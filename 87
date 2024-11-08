@@ -1,0 +1,19 @@
+#include <iostream>
+#include <string>
+
+
+using namespace std; 
+int main()
+{
+	srand(time(NULL)); 
+	int castigo; 
+	int i = 0; 
+	while (i <= 10)
+	{
+		castigo = rand() % 2;
+		cout << castigo << endl;
+		i++; 
+	}
+}
+
+
